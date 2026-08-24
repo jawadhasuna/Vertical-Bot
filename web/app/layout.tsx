@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vertical Agent",
+  title: "Vertical Bot",
   description: "rag based talk about robots",
   // Lets iOS launch the home-screen icon standalone rather than into Safari.
   appleWebApp: {
     capable: true,
-    title: "Vertical Agent",
+    title: "Vertical Bot",
     statusBarStyle: "black-translucent",
   },
 };

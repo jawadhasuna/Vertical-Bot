@@ -1,7 +1,7 @@
-# https://verticalagent.vercel.app
-# Vertical Agent — Humanoid Robotics
+# https://verticalbot.vercel.app
+# Vertical Bot — Humanoid Robotics
 
-A vertical RAG agent for humanoid robotics, built on Chroma Cloud vector search and Gemini, with retrieval-gated guardrails restricting it to its knowledge domain — deployed on Next.js and Vercel.
+A vertical RAG bot for humanoid robotics, built on Chroma Cloud vector search and Gemini, with retrieval-gated guardrails restricting it to its knowledge domain — deployed on Next.js and Vercel.
 
 Ask it about Atlas, Optimus, Figure 01, ASIMO, Ameca, or Unitree H1 and it answers from ingested source documents. Ask it anything else and it declines.
 
@@ -11,7 +11,7 @@ Ask it about Atlas, Optimus, Figure 01, ASIMO, Ameca, or Unitree H1 and it answe
 
 Most chatbots answer from whatever the underlying model happens to know. This one doesn't. Every answer is grounded in a set of PDFs about six humanoid robots, retrieved by semantic similarity at query time. If the retrieval step doesn't surface anything relevant, the request never reaches the language model at all.
 
-That constraint is the point. A vertical agent is scoped to one domain and stays there.
+That constraint is the point. A vertical bot is scoped to one domain and stays there.
 
 ---
 
@@ -89,8 +89,8 @@ Node.js 24 LTS · Python 3.10+ · Git · a Chroma Cloud account · a Gemini API 
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/jawadhasuna/Vertical-Agent.git
-cd Vertical-Agent
+git clone https://github.com/jawadhasuna/Vertical-Bot.git
+cd Vertical-Bot
 
 # Frontend
 cd web

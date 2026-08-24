@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Vertical Agent",
-    short_name: "Vertical",
+    name: "Vertical Bot",
+    short_name: "Vertical Bot",
     description:
       "Ask about humanoid robots — Atlas, Optimus, Figure 01, ASIMO, Ameca and Unitree H1.",
     start_url: "/",
